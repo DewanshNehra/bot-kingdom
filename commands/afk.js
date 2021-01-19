@@ -7,7 +7,7 @@ module.exports = {
   info: {
     name: "afk",
     description: "24/7",
-    usage: "[afk]",
+    usage: "[]",
     aliases: ["24/7"],
   },
 
