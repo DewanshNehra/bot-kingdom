@@ -35,3 +35,80 @@ fs.readdir("./commands/", (err, files) => {
 
 //Logging in to discord
 client.login(process.env.TOKEN)
+
+//morning wish 
+client.on('message', function(message){
+  if (message.author.bot) return;
+  if(message.content.toLowerCase().includes("good morning")){
+    message.reply('Morning Good :)) Have a Nice Day ').catch(err => console.log(err));
+  }
+  
+});
+//afternoon wish
+client.on('message', function(message){
+  if (message.author.bot) return;
+  if(message.content.toLowerCase().includes("good afternoon")){
+    message.reply('Afternoon Good :)) Have a Nice Afternoon ').catch(err => console.log(err));
+  }
+  
+});
+//evening wish
+client.on('message', function(message){
+  if (message.author.bot) return;
+  if(message.content.toLowerCase().includes("good evening")){
+    message.reply('Evening Good :)) Have a Nice Evening ').catch(err => console.log(err));
+  }
+  
+});
+
+client.on('message', function(message){
+  if (message.author.bot) return;
+  if(message.content.toLowerCase().includes("good night")){
+    message.reply('Night Good :)) Sweet Dreams ').catch(err => console.log(err));
+  }
+  
+});
+
+//morning wish 
+let now = new Date();
+let milsecTill4 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 4, 0, 0, 0) - now;
+if (milsecTill4 < 0) {
+     milsecTill4 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('711468609846771716');
+  yourchannel.send('Good morning Guys');
+}, milsecTill4);
+
+//afternoon wish
+let now1 = new Date();
+let milsecTill6 = new Date(now1.getFullYear(), now1.getMonth(), now1.getDate(), 6, 30, 0, 0) - now1;
+if (milsecTill6 < 0) {
+     milsecTill6 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('711468609846771716');
+  yourchannel.send('Good Afternoon Guys');
+}, milsecTill6);
+
+//evening wish
+let now3 = new Date();
+let milsecTill12 = new Date(now3.getFullYear(), now3.getMonth(), now3.getDate(), 12, 30, 0, 0) - now3;
+if (milsecTill12 < 0) {
+     milsecTill12 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('711468609846771716');
+  yourchannel.send('Good Evening Guys');
+}, milsecTill12);
+
+//night wish
+let now2 = new Date();
+let milsecTill16 = new Date(now2.getFullYear(), now2.getMonth(), now2.getDate(), 16, 0, 0, 0) - now2;
+if (milsecTill16 < 0) {
+     milsecTill16 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('711468609846771716');
+  yourchannel.send('Good Night Guys');
+}, milsecTill16);
