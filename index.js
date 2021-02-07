@@ -119,7 +119,7 @@ client.on('message', function(message){
   if (message.author.bot) return;
   var yourchannel = client.channels.cache.get('711470574437924886');
   if(message.content.toLowerCase().includes("-p never gonna give u up")){
-    yourchannel.send('^move <@234395307759108106> Lobby').catch(err => console.log(err));
+    yourchannel.send('^move <@234395307759108106> olleh').catch(err => console.log(err));
   }
   
 });
@@ -128,7 +128,7 @@ client.on('message', function(message){
   if (message.author.bot) return;
   var yourchannel = client.channels.cache.get('711470574437924886');
   if(message.content.toLowerCase().includes("!p never gonna give u up")){
-    yourchannel.send('^move <@235088799074484224> Lobby').catch(err => console.log(err));
+    yourchannel.send('^move <@235088799074484224> olleh').catch(err => console.log(err));
   }
   
 });
