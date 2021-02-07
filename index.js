@@ -113,15 +113,20 @@ setTimeout(function(){
   yourchannel.send('Good Night Guys');
 }, milsecTill16);
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 
 //song command 
 client.on('message', function(message){
   if (message.author.bot) return;
   var yourchannel = client.channels.cache.get('711470574437924886');
+  let delay = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
   if(message.content.toLowerCase().includes("-p never gonna give u up")){
+    delay(3000);
     yourchannel.send('^move <@234395307759108106> olleh').catch(err => console.log(err));
   }
-  
 });
 
 client.on('message', function(message){
