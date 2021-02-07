@@ -112,3 +112,38 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('Good Night Guys');
 }, milsecTill16);
+
+
+//song command 
+client.on('message', function(message){
+  if (message.author.bot) return;
+  var yourchannel = client.channels.cache.get('711470574437924886');
+  if(message.content.toLowerCase().includes("-p never gonna give u up")){
+    yourchannel.send('^move <@234395307759108106> Lobby').catch(err => console.log(err));
+  }
+  
+});
+
+client.on('message', function(message){
+  if (message.author.bot) return;
+  var yourchannel = client.channels.cache.get('711470574437924886');
+  if(message.content.toLowerCase().includes("!p never gonna give u up")){
+    yourchannel.send('^move <@235088799074484224> Lobby').catch(err => console.log(err));
+  }
+  
+});
+const Prefix = '^';
+client.on('message', function(message) {
+  if (message.content.toLocaleLowerCase().startsWith(Prefix + 'move')) {
+    let args = message.content.slice(Prefix.length).split(/ +/)
+    cmd = args.shift();
+    let member = message.mentions.members.first();
+    console.log(member);
+    console.log(args);
+    console.log(args[1]);
+    let newChannel = message.guild.channels.cache.find(chan => chan.name.toLowerCase() === args[1].toLowerCase() && chan.type === 'voice');
+    member.voice.setChannel(newChannel)
+      .then(() => console.log(`I moved: ${member.displayName} to channel: ${newChannel}!`))
+      .catch(console.error);
+  }
+});
