@@ -119,20 +119,22 @@ function sleep(ms) {
 
 
 //song command 
-client.on('message', function(message){
+client.on('message', async function(message){
   if (message.author.bot) return;
   var yourchannel = client.channels.cache.get('711470574437924886');
   let delay = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
   if(message.content.toLowerCase().includes("-p never gonna give u up")){
-    delay(3000);
+    await delay(3000);
     yourchannel.send('^move <@234395307759108106> olleh').catch(err => console.log(err));
   }
 });
 
-client.on('message', function(message){
+client.on('message', async function(message){
   if (message.author.bot) return;
   var yourchannel = client.channels.cache.get('711470574437924886');
+  let delay = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
   if(message.content.toLowerCase().includes("!p never gonna give u up")){
+     await delay(3000);
     yourchannel.send('^move <@235088799074484224> olleh').catch(err => console.log(err));
   }
   
