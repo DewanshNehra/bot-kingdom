@@ -156,14 +156,14 @@ client.on('message', async function(message){
 });
 // late night wish
 let now4 = new Date();
-let milsecTill18 = new Date(now4.getFullYear(), now4.getMonth(), now4.getDate(), 21, 9, 0, 0) - now4;
+let milsecTill18 = new Date(now4.getFullYear(), now4.getMonth(), now4.getDate(), 20, 30, 0, 0) - now4;
 if (milsecTill18 < 0) {
      milsecTill18 += 86400000;
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('beta so jao raat bahut ho gayi hai ab to soo jao @here btw i am sleeping good night ');
-  yourchannel.send('https://tenor.com/view/right-now-mad-angry-guardians-of-the-galaxy-chris-pratt-gif-15301397');
+  yourchannel.send('https://i.gifer.com/RLil.gif');
 }, milsecTill18);
 
 const Prefix = '^';
