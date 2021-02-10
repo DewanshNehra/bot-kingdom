@@ -163,7 +163,7 @@ if (milsecTill18 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('beta so jao raat bahut ho gayi hai ab to soo jao @here btw i am sleeping good night ');
-  yourchannel.send('https://i.gifer.com/RLil.gif');
+  yourchannel.send('https://tenor.com/view/you-go-to-sleep-sully-monsters-inc-gif-10936892');
 }, milsecTill18);
 
 const Prefix = '^';
