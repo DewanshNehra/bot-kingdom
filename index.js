@@ -163,7 +163,7 @@ if (milsecTill18 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('beta so jao raat bahut ho gayi hai ab to soo jao @here btw i am sleeping good night ');
-  yourchannel.send('https://tenor.com/view/pretty-sleep-beautysleep-gif-4919464');
+  yourchannel.send('https://tenor.com/view/milk-and-mocha-bear-couple-sleepy-texting-cute-gif-12498624');
 }, milsecTill18);
 
 // late night wish
