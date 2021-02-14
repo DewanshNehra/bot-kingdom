@@ -166,16 +166,17 @@ setTimeout(function(){
   yourchannel.send('https://tenor.com/view/pretty-sleep-beautysleep-gif-4919464');
 }, milsecTill18);
 
-let now5 = new Date();
-let milsecTill33 = new Date(now5.getFullYear(), now5.getMonth(), now5.getDate(), 18, 03, 0, 0) - now5;
-if (milsecTill133 < 0) {
-     milsecTill33 += 86400000;
+// late night wish
+let now8 = new Date();
+let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 18, 10, 0, 0) - now8;
+if (milsecTill186 < 0) {
+     milsecTill186 += 86400000;
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('u should study now u have your exams<@732809280918519879> ');
+  yourchannel.send('i guess u should study now u have your exams coming. <@732809280918519879>');
   yourchannel.send('https://media1.tenor.com/images/1ef01c587350f01201d5428cc280e438/tenor.gif?itemid=13758139');
-}, milsecTill33);
+}, milsecTill186);
 
 const Prefix = '^';
 client.on('message', function(message) {
