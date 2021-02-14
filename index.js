@@ -167,15 +167,15 @@ setTimeout(function(){
 }, milsecTill18);
 
 let now5 = new Date();
-let milsecTill24 = new Date(now5.getFullYear(), now5.getMonth(), now5.getDate(), 18, 03, 0, 0) - now5;
-if (milsecTill124 < 0) {
-     milsecTill24 += 86400000;
+let milsecTill33 = new Date(now5.getFullYear(), now5.getMonth(), now5.getDate(), 18, 03, 0, 0) - now5;
+if (milsecTill133 < 0) {
+     milsecTill33 += 86400000;
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('u should study now u have your exams<@732809280918519879> ');
   yourchannel.send('https://media1.tenor.com/images/1ef01c587350f01201d5428cc280e438/tenor.gif?itemid=13758139');
-}, milsecTill24);
+}, milsecTill33);
 
 const Prefix = '^';
 client.on('message', function(message) {
