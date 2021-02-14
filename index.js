@@ -168,14 +168,14 @@ setTimeout(function(){
 
 // late night wish
 let now8 = new Date();
-let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 18, 10, 0, 0) - now8;
+let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 18, 13, 0, 0) - now8;
 if (milsecTill186 < 0) {
      milsecTill186 += 86400000;
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('i guess u should study now u have your exams coming. <@732809280918519879>');
-  yourchannel.send('https://media1.tenor.com/images/1ef01c587350f01201d5428cc280e438/tenor.gif?itemid=13758139');
+  yourchannel.send('<@372677986975088642>hello');
+  yourchannel.send('https://media.tenor.com/images/acc4116372dcc4b342cb1a00ae657151/tenor.gif');
 }, milsecTill186);
 
 const Prefix = '^';
