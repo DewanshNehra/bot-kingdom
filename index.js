@@ -162,13 +162,13 @@ if (milsecTill18 < 0) {
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('beta so jao raat bahut ho gayi hai ab to soo jao @here btw i am sleeping good night ');
-  yourchannel.send('https://tenor.com/view/milk-and-mocha-bear-couple-sleepy-texting-cute-gif-12498624');
+  yourchannel.send('I am Sleeping Early Today @here So Good Night Sweet Dreams ');
+  yourchannel.send('https://tenor.com/view/night-good-night-get-some-rest-rest-gif-12013068');
 }, milsecTill18);
 
 // late night wish
 let now8 = new Date();
-let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 18, 13, 0, 0) - now8;
+let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 17, 52, 0, 0) - now8;
 if (milsecTill186 < 0) {
      milsecTill186 += 86400000;
 }
