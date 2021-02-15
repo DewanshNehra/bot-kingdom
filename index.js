@@ -156,7 +156,7 @@ client.on('message', async function(message){
 });
 // late night wish
 let now4 = new Date();
-let milsecTill18 = new Date(now4.getFullYear(), now4.getMonth(), now4.getDate(), 19, 52, 0, 0) - now4;
+let milsecTill18 = new Date(now4.getFullYear(), now4.getMonth(), now4.getDate(), 19, 38, 0, 0) - now4;
 if (milsecTill18 < 0) {
      milsecTill18 += 86400000;
 }
@@ -168,14 +168,14 @@ setTimeout(function(){
 
 // late night wish
 let now8 = new Date();
-let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 19, 32, 0, 0) - now8;
+let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 14, 32, 0, 0) - now8;
 if (milsecTill186 < 0) {
      milsecTill186 += 86400000;
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@372677986975088642>hello');
-  yourchannel.send('https://media.tenor.com/images/acc4116372dcc4b342cb1a00ae657151/tenor.gif');
+  yourchannel.send('<@695925657414139904>olleh');
+  yourchannel.send('https://tenor.com/view/bh187-minion-minions-hey-hello-gif-19166804');
 }, milsecTill186);
 
 const Prefix = '^';
