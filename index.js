@@ -156,7 +156,7 @@ client.on('message', async function(message){
 });
 // late night wish
 let now4 = new Date();
-let milsecTill18 = new Date(now4.getFullYear(), now4.getMonth(), now4.getDate(), 19, 40, 0, 0) - now4;
+let milsecTill18 = new Date(now4.getFullYear(), now4.getMonth(), now4.getDate(), 19, 20, 0, 0) - now4;
 if (milsecTill18 < 0) {
      milsecTill18 += 86400000;
 }
