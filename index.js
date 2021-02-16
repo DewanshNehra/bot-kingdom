@@ -162,8 +162,8 @@ if (milsecTill18 < 0) {
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('I am Sleeping Early Today @here So Good Night Sweet Dreams ');
-  yourchannel.send('https://tenor.com/view/night-good-night-get-some-rest-rest-gif-12013068');
+  yourchannel.send('(text error) @here good night guys');
+  yourchannel.send('https://tenor.com/view/minions-bye-bye-gif-8704517');
 }, milsecTill18);
 
 // late night wish
