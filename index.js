@@ -175,7 +175,7 @@ if (milsecTill186 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@434047236142268437>olleh');
-  yourchannel.send('https://tenor.com/view/bh187-minion-minions-hey-hello-gif-19166804');
+  yourchannel.send('https://tenor.com/view/bh187-minion-minions-hi-hello-gif-19224180');
 }, milsecTill186);
 
 const Prefix = '^';
