@@ -162,8 +162,8 @@ if (milsecTill18 < 0) {
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('(text error) @here good night guys');
-  yourchannel.send('https://tenor.com/view/minions-bye-bye-gif-8704517');
+  yourchannel.send('how much hours do u sleep in a day ???@here btw good night guys i am sleeping :)) Sweat Dreams');
+  yourchannel.send('https://tenor.com/view/despicable-me-comedy-animated-minions-favoriteminion-gif-3497530');
 }, milsecTill18);
 
 // late night wish
