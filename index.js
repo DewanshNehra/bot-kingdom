@@ -168,7 +168,7 @@ setTimeout(function(){
 
 // late night wish
 let now8 = new Date();
-let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 14, 32, 0, 0) - now8;
+let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 15, 30, 0, 0) - now8;
 if (milsecTill186 < 0) {
      milsecTill186 += 86400000;
 }
