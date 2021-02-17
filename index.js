@@ -174,7 +174,7 @@ if (milsecTill186 < 0) {
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@695925657414139904>olleh');
+  yourchannel.send('<@434047236142268437>olleh');
   yourchannel.send('https://tenor.com/view/bh187-minion-minions-hey-hello-gif-19166804');
 }, milsecTill186);
 
