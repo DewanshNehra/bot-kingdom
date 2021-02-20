@@ -162,8 +162,8 @@ if (milsecTill18 < 0) {
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('how much hours do u sleep in a day ???@here btw good night guys i am sleeping :)) Sweat Dreams');
-  yourchannel.send('https://tenor.com/view/despicable-me-comedy-animated-minions-favoriteminion-gif-3497530');
+  yourchannel.send('i guess u should sleep now your exams are coming ALL THE BEST FOR YOU EXAMS @here btw good night guys i am sleeping :)) Sweat Dreams');
+  yourchannel.send('https://tenor.com/view/good-luck-sponge-bob-luck-gif-9339262');
 }, milsecTill18);
 
 // kneegrow_wish
