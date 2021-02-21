@@ -162,7 +162,7 @@ if (milsecTill18 < 0) {
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('i guess u should sleep now your exams are coming ALL THE BEST FOR YOU EXAMS @here btw good night guys i am sleeping :)) Sweat Dreams');
+  yourchannel.send('ALL THE BEST FOR YOU EXAMS @here btw good night guys i am sleeping :)) Sweat Dreams');
   yourchannel.send('https://tenor.com/view/good-luck-sponge-bob-luck-gif-9339262');
 }, milsecTill18);
 
@@ -175,7 +175,7 @@ if (milsecTill186 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@434047236142268437>olleh');
-  yourchannel.send('https://tenor.com/view/bh187-minion-minions-hi-hello-gif-19224180');
+  yourchannel.send('');
 }, milsecTill186);
 
 // falele_wish
@@ -187,7 +187,7 @@ if (milsecTill181 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@695925657414139904>olleh');
-  yourchannel.send('https://tenor.com/view/minion-hello-maid-gif-8718472');
+  yourchannel.send('');
 }, milsecTill181);
 
 // yeet_master_wish
@@ -199,7 +199,7 @@ if (milsecTill182 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@732809280918519879>olleh');
-  yourchannel.send('https://tenor.com/view/hello-there-private-from-penguins-of-madagascar-hi-wave-hey-there-gif-16043627');
+  yourchannel.send('');
 }, milsecTill182);
 
 // sama_wish
@@ -211,7 +211,7 @@ if (milsecTill183 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@295119489408958466>olleh');
-  yourchannel.send('https://tenor.com/view/you-are-welcome-samasama-minion-kembali-makasih-kembali-gif-10048084');
+  yourchannel.send('');
 }, milsecTill183);
 
 // soviet_wish
@@ -223,7 +223,7 @@ if (milsecTill184 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@372677986975088642>olleh');
-  yourchannel.send('https://tenor.com/view/star-wars-baby-yoda-the-mandalorian-hello-there-wave-gif-16179356');
+  yourchannel.send('');
 }, milsecTill184);
 
 // segu_wish
@@ -235,7 +235,7 @@ if (milsecTill185 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@711318263761600642>olleh');
-  yourchannel.send('https://tenor.com/view/hi-hello-nerdgasm-gif-13617034');
+  yourchannel.send('');
 }, milsecTill185);
 
 // laxy_wish
@@ -247,7 +247,7 @@ if (milsecTill1866 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@696403504670965902>olleh');
-  yourchannel.send('https://tenor.com/view/wave-bye-hi-hello-anime-gif-8718221');
+  yourchannel.send('');
 }, milsecTill1866);
 
 // zan_wish
@@ -259,7 +259,7 @@ if (milsecTill187 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@689812585683615758>olleh');
-  yourchannel.send('https://tenor.com/view/hello-sir-gerry-dee-family-feud-canada-hi-sir-good-morning-gif-19928784');
+  yourchannel.send('');
 }, milsecTill187);
 
 const Prefix = '^';
