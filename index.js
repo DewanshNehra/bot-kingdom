@@ -178,66 +178,6 @@ setTimeout(function(){
   yourchannel.send('');
 }, milsecTill186);
 
-// falele_wish
-let now11 = new Date();
-let milsecTill181 = new Date(now11.getFullYear(), now11.getMonth(), now11.getDate(), 14, 30, 0, 0) - now11;
-if (milsecTill181 < 0) {
-     milsecTill181 += 86400000;
-}
-setTimeout(function(){
-  var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@695925657414139904>olleh');
-  yourchannel.send('');
-}, milsecTill181);
-
-// yeet_master_wish
-let now12 = new Date();
-let milsecTill182 = new Date(now12.getFullYear(), now12.getMonth(), now12.getDate(), 12, 30, 0, 0) - now12;
-if (milsecTill182 < 0) {
-     milsecTill182 += 86400000;
-}
-setTimeout(function(){
-  var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@732809280918519879>olleh');
-  yourchannel.send('');
-}, milsecTill182);
-
-// sama_wish
-let now13 = new Date();
-let milsecTill183 = new Date(now13.getFullYear(), now13.getMonth(), now13.getDate(), 10, 30, 0, 0) - now13;
-if (milsecTill183 < 0) {
-     milsecTill183 += 86400000;
-}
-setTimeout(function(){
-  var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@295119489408958466>olleh');
-  yourchannel.send('');
-}, milsecTill183);
-
-// soviet_wish
-let now14 = new Date();
-let milsecTill184 = new Date(now14.getFullYear(), now14.getMonth(), now14.getDate(), 8, 30, 0, 0) - now14;
-if (milsecTill184 < 0) {
-     milsecTill184 += 86400000;
-}
-setTimeout(function(){
-  var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@372677986975088642>olleh');
-  yourchannel.send('');
-}, milsecTill184);
-
-// segu_wish
-let now15 = new Date();
-let milsecTill185 = new Date(now15.getFullYear(), now15.getMonth(), now15.getDate(), 6, 30, 0, 0) - now15;
-if (milsecTill185 < 0) {
-     milsecTill185 += 86400000;
-}
-setTimeout(function(){
-  var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@711318263761600642>olleh');
-  yourchannel.send('');
-}, milsecTill185);
-
 // laxy_wish
 let now16 = new Date();
 let milsecTill1866 = new Date(now16.getFullYear(), now16.getMonth(), now16.getDate(), 4, 30, 0, 0) - now16;
@@ -250,17 +190,7 @@ setTimeout(function(){
   yourchannel.send('');
 }, milsecTill1866);
 
-// zan_wish
-let now17 = new Date();
-let milsecTill187 = new Date(now17.getFullYear(), now17.getMonth(), now17.getDate(), 2, 30, 0, 0) - now17;
-if (milsecTill187 < 0) {
-     milsecTill187 += 86400000;
-}
-setTimeout(function(){
-  var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('<@689812585683615758>olleh');
-  yourchannel.send('');
-}, milsecTill187);
+
 
 const Prefix = '^';
 client.on('message', function(message) {
