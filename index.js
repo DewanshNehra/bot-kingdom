@@ -107,7 +107,7 @@ setTimeout(function(){
 }, milsecTill6);
 
 //afternoon wish for fungal
-let now1444 = new Date();
+let now14444 = new Date();
 let milsecTill6333 = new Date(now14444.getFullYear(), now14444.getMonth(), now14444.getDate(), 6, 30, 0, 0) - now14444;
 if (milsecTill6333 < 0) {
      milsecTill6333 += 86400000;
