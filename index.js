@@ -51,6 +51,8 @@ client.on('message', function(message){
     message.reply('Afternoon Good :)) Have a Nice Afternoon ').catch(err => console.log(err));
   }
   
+  
+  
 });
 //evening wish
 client.on('message', function(message){
@@ -80,6 +82,19 @@ setTimeout(function(){
   yourchannel.send('Good morning Guys');
 }, milsecTill4);
 
+
+//morning wish  for fungal
+let now1111 = new Date();
+let milsecTill49 = new Date(now1111.getFullYear(), now1111.getMonth(), now1111.getDate(), 4, 0, 0, 0) - now1111;
+if (milsecTill433 < 0) {
+     milsecTill433 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('568096337120198694');
+  yourchannel.send('Good morning Guys');
+}, milsecTill433);
+
+
 //afternoon wish
 let now1 = new Date();
 let milsecTill6 = new Date(now1.getFullYear(), now1.getMonth(), now1.getDate(), 6, 30, 0, 0) - now1;
@@ -90,6 +105,18 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('Good Afternoon Guys');
 }, milsecTill6);
+
+//afternoon wish for fungal
+let now1444 = new Date();
+let milsecTill6333 = new Date(now14444.getFullYear(), now14444.getMonth(), now14444.getDate(), 6, 30, 0, 0) - now14444;
+if (milsecTill6333 < 0) {
+     milsecTill6333 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('568096337120198694');
+  yourchannel.send('Good Afternoon Guys');
+}, milsecTill6333);
+
 
 //evening wish
 let now3 = new Date();
@@ -102,6 +129,18 @@ setTimeout(function(){
   yourchannel.send('Good Evening Guys');
 }, milsecTill12);
 
+//evening wish for fungal
+let now35555 = new Date();
+let milsecTill1255 = new Date(now35555.getFullYear(), now35555.getMonth(), now35555.getDate(), 12, 30, 0, 0) - now35555;
+if (milsecTill1255 < 0) {
+     milsecTill1255 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('568096337120198694');
+  yourchannel.send('Good Evening Guys');
+}, milsecTill1255);
+
+
 //night wish
 let now2 = new Date();
 let milsecTill16 = new Date(now2.getFullYear(), now2.getMonth(), now2.getDate(), 16, 0, 0, 0) - now2;
@@ -112,6 +151,17 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('Good Night Guys');
 }, milsecTill16);
+
+//night wish for fungal
+let now266 = new Date();
+let milsecTill16666 = new Date(now266.getFullYear(), now266.getMonth(), now266.getDate(), 16, 0, 0, 0) - now266;
+if (milsecTill16666 < 0) {
+     milsecTill16666 += 86400000;
+}
+setTimeout(function(){
+  var yourchannel = client.channels.cache.get('568096337120198694');
+  yourchannel.send('Good Night Guys');
+}, milsecTill16666);
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -162,7 +212,7 @@ if (milsecTill18 < 0) {
 }
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('ALL THE BEST FOR YOU EXAMS @here btw good night guys i am sleeping :)) Sweat Dreams');
+  yourchannel.send('ALL THE BEST FOR YOU EXAMS btw good night guys i am sleeping :)) Sweat Dreams');
   yourchannel.send('https://tenor.com/view/good-luck-sponge-bob-luck-gif-9339262');
 }, milsecTill18);
 
