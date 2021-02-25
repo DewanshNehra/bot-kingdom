@@ -213,7 +213,7 @@ if (milsecTill18 < 0) {
 setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('ALL THE BEST FOR YOU EXAMS btw good night guys i am sleeping :)) Sweat Dreams');
-  yourchannel.send('https://tenor.com/view/good-luck-sponge-bob-luck-gif-9339262');
+  yourchannel.send('');
 }, milsecTill18);
 
 // kneegrow_wish
