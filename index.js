@@ -204,17 +204,6 @@ client.on('message', async function(message){
   }
   
 });
-// late night wish
-let now4 = new Date();
-let milsecTill18 = new Date(now4.getFullYear(), now4.getMonth(), now4.getDate(), 19, 20, 0, 0) - now4;
-if (milsecTill18 < 0) {
-     milsecTill18 += 86400000;
-}
-setTimeout(function(){
-  var yourchannel = client.channels.cache.get('711468609846771716');
-  yourchannel.send('ALL THE BEST FOR YOU EXAMS btw good night guys i am sleeping :)) Sweat Dreams');
-  yourchannel.send('');
-}, milsecTill18);
 
 // kneegrow_wish
 let now8 = new Date();
