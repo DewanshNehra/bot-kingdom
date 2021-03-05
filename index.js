@@ -204,7 +204,7 @@ client.on('message', async function(message){
   }
   
 });
-
+/*
 // kneegrow_wish
 let now8 = new Date();
 let milsecTill186 = new Date(now8.getFullYear(), now8.getMonth(), now8.getDate(), 15, 30, 0, 0) - now8;
@@ -215,7 +215,8 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('<@434047236142268437>olleh');
   yourchannel.send('');
-}, milsecTill186);
+}, milsecTill186); 
+*/
 
 // laxy_wish
 let now16 = new Date();
