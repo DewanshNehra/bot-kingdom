@@ -70,7 +70,7 @@ client.on('message', function(message){
   }
   
 });
-
+/*
 //morning wish 
 let now = new Date();
 let milsecTill4 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 4, 0, 0, 0) - now;
@@ -81,7 +81,7 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('Good morning Guys');
 }, milsecTill4);
-
+*/
 
 //morning wish  for fungal
 let now1111 = new Date();
@@ -94,7 +94,7 @@ setTimeout(function(){
   yourchannel.send('Good morning Guys');
 }, milsecTill433);
 
-
+/*
 //afternoon wish
 let now1 = new Date();
 let milsecTill6 = new Date(now1.getFullYear(), now1.getMonth(), now1.getDate(), 6, 30, 0, 0) - now1;
@@ -105,7 +105,7 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('Good Afternoon Guys');
 }, milsecTill6);
-
+*/
 //afternoon wish for fungal
 let now14444 = new Date();
 let milsecTill6333 = new Date(now14444.getFullYear(), now14444.getMonth(), now14444.getDate(), 6, 30, 0, 0) - now14444;
@@ -117,7 +117,7 @@ setTimeout(function(){
   yourchannel.send('Good Afternoon Guys');
 }, milsecTill6333);
 
-
+/*
 //evening wish
 let now3 = new Date();
 let milsecTill12 = new Date(now3.getFullYear(), now3.getMonth(), now3.getDate(), 12, 30, 0, 0) - now3;
@@ -128,7 +128,7 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('Good Evening Guys');
 }, milsecTill12);
-
+*/
 //evening wish for fungal
 let now35555 = new Date();
 let milsecTill1255 = new Date(now35555.getFullYear(), now35555.getMonth(), now35555.getDate(), 12, 30, 0, 0) - now35555;
@@ -140,7 +140,7 @@ setTimeout(function(){
   yourchannel.send('Good Evening Guys');
 }, milsecTill1255);
 
-
+/*
 //night wish
 let now2 = new Date();
 let milsecTill16 = new Date(now2.getFullYear(), now2.getMonth(), now2.getDate(), 16, 0, 0, 0) - now2;
@@ -151,7 +151,7 @@ setTimeout(function(){
   var yourchannel = client.channels.cache.get('711468609846771716');
   yourchannel.send('Good Night Guys');
 }, milsecTill16);
-
+*/
 //night wish for fungal
 let now266 = new Date();
 let milsecTill16666 = new Date(now266.getFullYear(), now266.getMonth(), now266.getDate(), 16, 0, 0, 0) - now266;
