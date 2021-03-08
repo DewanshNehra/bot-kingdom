@@ -217,7 +217,7 @@ setTimeout(function(){
   yourchannel.send('');
 }, milsecTill186); 
 */
-
+/*
 // laxy_wish
 let now16 = new Date();
 let milsecTill1866 = new Date(now16.getFullYear(), now16.getMonth(), now16.getDate(), 4, 30, 0, 0) - now16;
@@ -230,7 +230,7 @@ setTimeout(function(){
   yourchannel.send('');
 }, milsecTill1866);
 
-
+*/
 
 const Prefix = '^';
 client.on('message', function(message) {
