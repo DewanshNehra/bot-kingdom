@@ -231,7 +231,7 @@ setTimeout(function(){
 }, milsecTill1866);
 
 */
-
+/*
 //no reply 
 client.on('message', function(message){
   if (message.author.bot) return;
@@ -254,7 +254,7 @@ client.on('message', message => {
     message.reply('yes');
   }
 });
-
+*/
 const Prefix = '^';
 client.on('message', function(message) {
   if (message.content.toLocaleLowerCase().startsWith(Prefix + 'move')) {
