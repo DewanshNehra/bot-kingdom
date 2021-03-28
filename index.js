@@ -249,6 +249,12 @@ client.on('message', function(message){
   
 });
 
+client.on('message', message => {
+  if (message.content.startsWith('no')) {
+    message.reply('yes');
+  }
+});
+
 const Prefix = '^';
 client.on('message', function(message) {
   if (message.content.toLocaleLowerCase().startsWith(Prefix + 'move')) {
