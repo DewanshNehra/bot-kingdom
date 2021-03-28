@@ -232,6 +232,23 @@ setTimeout(function(){
 
 */
 
+//no reply 
+client.on('message', function(message){
+  if (message.author.bot) return;
+  if(message.content.toLowerCase().includes("no")){
+    message.reply('yes').catch(err => console.log(err));
+  }
+  
+});
+
+client.on('message', function(message){
+  if (message.author.bot) return;
+  if(message.content.toLowerCase().includes("yes")){
+    message.reply('no').catch(err => console.log(err));
+  }
+  
+});
+
 const Prefix = '^';
 client.on('message', function(message) {
   if (message.content.toLocaleLowerCase().startsWith(Prefix + 'move')) {
