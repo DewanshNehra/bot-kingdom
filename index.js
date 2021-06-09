@@ -196,11 +196,11 @@ client.on('message', async function(message){
   let delay = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
   if(message.content.toLowerCase().includes(",p never gonna give u up")){
      await delay(3000);
-    yourchannel.send('^move <@781530231114563584> olleh').catch(err => console.log(err));
+    yourchannel.send('^move <@235088799074484224> olleh').catch(err => console.log(err));
   }
   else if(message.content.toLowerCase().includes(",plap never gonna give u up")){
      await delay(3000);
-    yourchannel.send('^move <@781530231114563584> olleh').catch(err => console.log(err));
+    yourchannel.send('^move <@235088799074484224> olleh').catch(err => console.log(err));
   }
   
 });
