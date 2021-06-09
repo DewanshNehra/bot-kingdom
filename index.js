@@ -171,7 +171,7 @@ function sleep(ms) {
 //song command 
 client.on('message', async function(message){
   if (message.author.bot) return;
-  var yourchannel = client.channels.cache.get('711470574437924886');
+  var yourchannel = client.channels.cache.get('845957863700693002');
   let delay = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
   if(message.content.toLowerCase().includes("-p never gonna give u up")){
     await delay(3000);
@@ -192,7 +192,7 @@ client.on('message', async function(message){
 
 client.on('message', async function(message){
   if (message.author.bot) return;
-  var yourchannel = client.channels.cache.get('711470574437924886');
+  var yourchannel = client.channels.cache.get('846681063882227742');
   let delay = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
   if(message.content.toLowerCase().includes(",p never gonna give u up")){
      await delay(3000);
