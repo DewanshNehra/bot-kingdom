@@ -90,7 +90,7 @@ if (milsecTill433 < 0) {
      milsecTill433 += 86400000;
 }
 setTimeout(function(){
-  var yourchannel = client.channels.cache.get('568096337120198694');
+  var yourchannel = client.channels.cache.get('845731829839560704');
   yourchannel.send('Good morning Guys');
 }, milsecTill433);
 
@@ -113,7 +113,7 @@ if (milsecTill6333 < 0) {
      milsecTill6333 += 86400000;
 }
 setTimeout(function(){
-  var yourchannel = client.channels.cache.get('568096337120198694');
+  var yourchannel = client.channels.cache.get('845731829839560704');
   yourchannel.send('Good Afternoon Guys');
 }, milsecTill6333);
 
@@ -136,7 +136,7 @@ if (milsecTill1255 < 0) {
      milsecTill1255 += 86400000;
 }
 setTimeout(function(){
-  var yourchannel = client.channels.cache.get('568096337120198694');
+  var yourchannel = client.channels.cache.get('845731829839560704');
   yourchannel.send('Good Evening Guys');
 }, milsecTill1255);
 
@@ -159,7 +159,7 @@ if (milsecTill16666 < 0) {
      milsecTill16666 += 86400000;
 }
 setTimeout(function(){
-  var yourchannel = client.channels.cache.get('568096337120198694');
+  var yourchannel = client.channels.cache.get('845731829839560704');
   yourchannel.send('Good Night Guys');
 }, milsecTill16666);
 
