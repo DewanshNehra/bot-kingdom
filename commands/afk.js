@@ -22,7 +22,7 @@ module.exports = {
              message.channel.send({
                 embed: {
                     color: "GREEN",
-                    description: `💤  **|**  sama fuck off 😅 **\`${serverQueue.afk === true ? "enabled" : "disabled"}\`**`
+                    description: `💤  **|**  Have a Nice day :) **\`${serverQueue.afk === true ? "enabled" : "disabled"}\`**`
                 }
             });
             return  fs.writeFile("./afk.json", JSON.stringify(afk), (err) => {
